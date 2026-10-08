@@ -1,0 +1,271 @@
+!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hybrid Cloud Architecture</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <header>
+    <nav class="navbar">
+      <div class="logo">☁ Hybrid Cloud</div>
+
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#architecture">Architecture</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#benefits">Benefits</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- HERO -->
+    <section id="home" class="hero">
+      <div class="hero-content">
+        <span class="badge">CLOUD COMPUTING PROJECT</span>
+
+        <h1>
+          Hybrid Cloud<br>
+          <span>Architecture</span>
+        </h1>
+
+        <p>
+          A modern cloud architecture combining on-premises infrastructure
+          with public cloud services for scalability, security and flexibility.
+        </p>
+
+        <a href="#architecture" class="btn">View Architecture</a>
+      </div>
+
+      <div class="cloud-animation">
+        <div class="big-cloud">☁</div>
+        <div class="server-box">🖥️</div>
+        <div class="connection">↔</div>
+        <div class="aws-box">AWS</div>
+        <div class="azure-box">Azure</div>
+      </div>
+    </section>
+
+    <!-- ARCHITECTURE -->
+    <section id="architecture" class="section">
+      <div class="section-title">
+        <span>01</span>
+        <h2>System Architecture</h2>
+        <p>How on-premises infrastructure connects with public cloud services.</p>
+      </div>
+
+      <div class="architecture">
+
+        <div class="architecture-card onprem">
+          <div class="icon">🏢</div>
+          <h3>On-Premises</h3>
+          <p>Private infrastructure and internal applications.</p>
+
+          <div class="server">
+            <span>🖥️</span>
+            Web Server
+          </div>
+
+          <div class="server">
+            <span>🗄️</span>
+            Database
+          </div>
+
+          <div class="server">
+            <span>🔐</span>
+            Firewall
+          </div>
+        </div>
+
+        <div class="arrow">
+          <span>⇄</span>
+          <small>VPN / Secure Connection</small>
+        </div>
+
+        <div class="architecture-card public-cloud">
+          <div class="icon">☁️</div>
+          <h3>Public Cloud</h3>
+          <p>Scalable cloud computing and storage resources.</p>
+
+          <div class="cloud-service">
+            <strong>AWS</strong>
+            <small>EC2 • S3 • RDS</small>
+          </div>
+
+          <div class="cloud-service azure">
+            <strong>Azure</strong>
+            <small>VM • Storage • SQL</small>
+          </div>
+
+          <div class="cloud-service">
+            <strong>Cloud Backup</strong>
+            <small>Disaster Recovery</small>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- SERVICES -->
+    <section id="services" class="section dark-section">
+      <div class="section-title">
+        <span>02</span>
+        <h2>Cloud Services</h2>
+        <p>Core services used in the hybrid cloud environment.</p>
+      </div>
+
+      <div class="service-grid">
+
+        <div class="service-card">
+          <div class="service-icon">⚡</div>
+          <h3>Compute</h3>
+          <p>
+            Virtual machines and cloud computing resources provide
+            scalable processing power.
+          </p>
+        </div>
+
+        <div class="service-card">
+          <div class="service-icon">💾</div>
+          <h3>Storage</h3>
+          <p>
+            Cloud and on-premises storage provide reliable data
+            storage and backup.
+          </p>
+        </div>
+
+        <div class="service-card">
+          <div class="service-icon">🗃️</div>
+          <h3>Database</h3>
+          <p>
+            Centralized and cloud databases provide reliable application
+            data management.
+          </p>
+        </div>
+
+        <div class="service-card">
+          <div class="service-icon">🔒</div>
+          <h3>Security</h3>
+          <p>
+            Firewalls, encryption, identity management and VPNs
+            protect cloud resources.
+          </p>
+        </div>
+
+        <div class="service-card">
+          <div class="service-icon">📊</div>
+          <h3>Monitoring</h3>
+          <p>
+            Continuous monitoring helps identify performance and
+            security issues.
+          </p>
+        </div>
+
+        <div class="service-card">
+          <div class="service-icon">🔄</div>
+          <h3>Backup</h3>
+          <p>
+            Automated cloud backup and disaster recovery improve
+            business continuity.
+          </p>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- WORKFLOW -->
+    <section class="section">
+      <div class="section-title">
+        <span>03</span>
+        <h2>Data Flow</h2>
+        <p>Example workflow between users, private infrastructure and cloud.</p>
+      </div>
+
+      <div class="workflow">
+
+        <div class="flow-item">
+          <div class="flow-number">1</div>
+          <h3>User</h3>
+          <p>User sends a request.</p>
+        </div>
+
+        <div class="flow-line">→</div>
+
+        <div class="flow-item">
+          <div class="flow-number">2</div>
+          <h3>Firewall</h3>
+          <p>Traffic is authenticated and filtered.</p>
+        </div>
+
+        <div class="flow-line">→</div>
+
+        <div class="flow-item">
+          <div class="flow-number">3</div>
+          <h3>Private Cloud</h3>
+          <p>Internal services process secure workloads.</p>
+        </div>
+
+        <div class="flow-line">→</div>
+
+        <div class="flow-item">
+          <div class="flow-number">4</div>
+          <h3>Public Cloud</h3>
+          <p>Scalable workloads run in the cloud.</p>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- BENEFITS -->
+    <section id="benefits" class="section benefits-section">
+      <div class="section-title">
+        <span>04</span>
+        <h2>Benefits</h2>
+        <p>Why organizations use hybrid cloud architecture.</p>
+      </div>
+
+      <div class="benefit-grid">
+
+        <div class="benefit">
+          <span>01</span>
+          <h3>Scalability</h3>
+          <p>Increase cloud resources whenever demand increases.</p>
+        </div>
+
+        <div class="benefit">
+          <span>02</span>
+          <h3>Security</h3>
+          <p>Keep sensitive workloads in controlled private infrastructure.</p>
+        </div>
+
+        <div class="benefit">
+          <span>03</span>
+          <h3>Cost Optimization</h3>
+          <p>Use public cloud resources only when required.</p>
+        </div>
+
+        <div class="benefit">
+          <span>04</span>
+          <h3>Reliability</h3>
+          <p>Backup and disaster recovery improve availability.</p>
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    <p>© 2026 Hybrid Cloud Architecture Project</p>
+    <p>Designed for Cloud Computing</p>
+  </footer>
+
+  <script src="script.js"></script>
+
+</body>
+</html
